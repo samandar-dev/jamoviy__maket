@@ -282,6 +282,44 @@ body {
 
 
 
+
+
+
+/* ABOUT HTML  HERO*/
+
+.abouthero{
+  padding: 120px 0;
+}
+.abouthero__title{
+  width: 350px;
+  margin: 0 30px 0 0 ;
+  font-size: 64px;
+  line-height: 100px;
+  color: var(--color);
+}
+.abouthero{
+  display: flex;
+}
+.abouthero__span{
+  display: inline-block;
+  width: 50px;
+  height: 4px;
+  background-color: var(--color-primary-1);
+  margin-bottom: 40px;
+}
+.abouthero__text{
+  width: 670px;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--color);
+}
+
+
+
+
+
+
+
 /* FOOTER PART  */
 
 .footer__inner {
