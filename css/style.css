@@ -128,6 +128,10 @@ body {
   transition: all 0.3s ease;
 }
 
+
+
+/* HEADER PART  */
+
 #header-hero {
   background: var(--bg-color-1);
   width: 100%;
@@ -170,7 +174,8 @@ body {
   text-decoration: none;
 }
 
-/* START HERO */
+
+/* HEADER HERO */
 
 .hero {
   padding-top: 130px;
@@ -254,6 +259,27 @@ body {
 
 .build {
   display: flex;
+}
+
+.bright__Enhanced {
+  display: flex;
+}
+
+.enhanced__img {
+  margin-right: 23px;
+}
+
+.enhanced__textexpre {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 16px;
+  color: var(--color-primary-1);
+}
+
+.enhanced__textour {
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--color);
 }
 
 .bright__Experienced {
@@ -431,7 +457,6 @@ body {
 }
 
 
-
 /* CONTACT PART  */
 
 .contact {
@@ -509,24 +534,7 @@ body {
   width: 545px;
 }
 
-.bright__Enhanced {
-  display: flex;
-}
-
-.enhanced__img {
-  margin-right: 23px;
-}
-
-.enhanced__textexpre {
-  font-size: 18px;
-  line-height: 28px;
-  margin-bottom: 16px;
-  color: var(--color-primary-1);
-}
-
-.enhanced__textour {
-  font-size: 15px;
-  line-height: 25px;
+.contact__form{
   color: var(--color);
 }
 
@@ -539,7 +547,7 @@ body {
   letter-spacing: -0.115385px;
   display: block;
 
-  color: var(--color);
+  color: #fff;
   background: transparent;
   border: none;
   border-bottom: 1px solid var(--bd-color);
@@ -552,6 +560,7 @@ body {
 }
 
 .form__input::placeholder {
+  color: #fff;
   opacity: 0.6;
 }
 
@@ -560,6 +569,15 @@ body {
   padding-bottom: 58px;
 }
 
+.form__input:hover{
+  color: var(--color);
+  border-bottom: 1px solid var(--color-primary-2);
+  transition: all 0.2s ease;
+}
+
+.form__input:hover::placeholder {
+  opacity: 1;
+}
 
 
 
@@ -605,6 +623,9 @@ body {
 .aboutlist {
   background-color: var(--bg-color-5);
   padding: 140px 0;
+  background-image: url('../images/grid-bg-img.png'),url('../images/grid-bgc-img2.png');
+  background-repeat: no-repeat;
+  background-position: top left,bottom right;
 }
 
 .aboutlist__title {
@@ -619,7 +640,6 @@ body {
   display: grid;
   width: 100%;
   height: 590px;
-  /* grid-gap: 10px; */
   grid-column-gap: 30px;
   grid-row-gap: 76px;
   grid-template-columns: 1fr 1fr 1fr;
@@ -631,7 +651,7 @@ body {
   position: relative;
   width: 350px;
   height: 253px;
-  padding: 32px 0;
+  padding: 32px 48px;
   background-color: var(--color-title);
 }
 
@@ -661,7 +681,14 @@ body {
   transform: translate(-50%);
   bottom: -11%;
 }
-
+.aboutgrid__div{
+  width: 60px;
+  margin: 0 auto;
+  margin-top: 24px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
 
 .some {
   background-image: url('/jamoviy__maket-1/images/some-bg.svg');
