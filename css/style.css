@@ -661,6 +661,21 @@ body {
   margin-bottom: 16px;
 }
 
+.bx-plus-medical{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: -11%;
+  padding: 20px 20px;
+  background-color: var(--bg-color-3);
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.bx-plus-medical:hover{
+  background-color:var(--color-primary-2);
+}
+
 .aboutgrid__title {
   font-size: 18px;
   line-height: 28px;
@@ -706,7 +721,6 @@ body {
   text-align: center;
   color: #FFFFFF;
 }
-
 
 
 
