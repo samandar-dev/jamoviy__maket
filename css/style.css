@@ -147,7 +147,6 @@ body {
 }
 .hero__left{
   width: 550px;
-  /* margin-right: 30px; */
 }
 .hero__title{
   font-size: 100px;
@@ -157,8 +156,6 @@ body {
 .hero__tspan{
   color:var(--color-primary-1);
 }
-
-
 .hero__right{
   width: 410px;
 }
@@ -175,10 +172,13 @@ body {
   color: var(--color);
 }
 
+/* END OF HERO */
 
+/* START  MAIN */
 
-
-
+.build-section{
+  background-color: var(--color-title);
+}
 
 
 
