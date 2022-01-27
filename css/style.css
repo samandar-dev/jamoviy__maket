@@ -648,9 +648,6 @@ body {
 .bx-plus-medical:hover{
   background-color:var(--color-primary-2);
 }
-/* .bx-plus-medical:active{
-  transform: rotate(90deg);
-} */
 .aboutgrid__title{
   font-size: 18px;
   line-height: 28px;
