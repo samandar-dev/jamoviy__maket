@@ -289,8 +289,14 @@ body {
 
 /* ABOUT HTML  HERO*/
 
+.about-hero{
+  background-image: url('../images/about-hero-bgc.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
 .abouthero{
   padding: 120px 0;
+  display: flex;
 }
 .abouthero__title{
   width: 350px;
@@ -298,9 +304,6 @@ body {
   font-size: 64px;
   line-height: 100px;
   color: var(--color);
-}
-.abouthero{
-  display: flex;
 }
 .abouthero__span{
   display: inline-block;
