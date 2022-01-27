@@ -534,7 +534,7 @@ body {
   width: 545px;
 }
 
-.contact__form{
+.contact__form {
   color: var(--color);
 }
 
@@ -569,7 +569,7 @@ body {
   padding-bottom: 58px;
 }
 
-.form__input:hover{
+.form__input:hover {
   color: var(--color);
   border-bottom: 1px solid var(--color-primary-2);
   transition: all 0.2s ease;
@@ -620,9 +620,9 @@ body {
 .aboutlist {
   background-color: var(--bg-color-5);
   padding: 140px 0;
-  background-image: url('../images/grid-bg-img.png'),url('../images/grid-bgc-img2.png');
+  background-image: url('../images/grid-bg-img.png'), url('../images/grid-bgc-img2.png');
   background-repeat: no-repeat;
-  background-position: top left,bottom right;
+  background-position: top left, bottom right;
 }
 
 .aboutlist__title {
@@ -678,7 +678,8 @@ body {
   transform: translate(-50%);
   bottom: -11%;
 }
-.aboutgrid__div{
+
+.aboutgrid__div {
   width: 60px;
   margin: 0 auto;
   margin-top: 24px;
