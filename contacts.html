@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>myteam</title>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,17 +31,17 @@
               <nav class="nav">
                 <ul class="nav__list row middle between">
                   <li class="nav__item">
-                    <a class="nav__link link-hover" href="#">home</a>
+                    <a class="nav__link link-hover" href="index.html">home</a>
                   </li>
                   <li class="nav__item">
-                    <a class="nav__link link-hover" href="#">about</a>
+                    <a class="nav__link link-hover" href="about.html">about</a>
                   </li>
                 </ul>
               </nav>
             </div>
 
             <div class="header__btnbox">
-              <button class="btn-1 header__btn">contact us</button>
+              <a class="btn-1 header__btn" href="contacts.html">contact us</a>
             </div>
           </div>
         </div>
@@ -52,16 +52,44 @@
 
   <main class="main">
     <div class="main__inner">
+      <div class="contact">
+        <div class="container">
+          <div class="contact__inner row between">
+            <div class="contact__description contact-desc">
+              <h2 class="contact-desc__title">Contact</h2>
+              <p class="contact-desc__text">Ask us about</p>
 
+              <ul class="contact-desc__list">
+                <li class="contact-desc__item">
+                  <p class="contact-desc__tit row middle">The quality of our talent network</p>
+                </li>
+                <li class="contact-desc__item">
+                  <p class="contact-desc__tit row middle">Usage & implementation of our software</p>
+                </li>
+                <li class="contact-desc__item">
+                  <p class="contact-desc__tit row middle">How we help drive innovation</p>
+                </li>
+              </ul>
+            </div>
 
+            <div class="contact__form-box">
+              <form class="contact__form form" action="#">
+                <input class="form__input" type="text" name="name" id="name-item" placeholder="Name" required>
+                <input class="form__input" type="email" name="Email Address" id="email-address"
+                  placeholder="Email Address" required>
+                <input class="form__input" type="text" name="Company Name" id="company-name" placeholder="Company Name"
+                  required>
+                <input class="form__input" type="text" name="Title" id="title" placeholder="Title" required>
+                <input class="form__input" type="text" name="Message" id="message" placeholder="Message" required>
+
+                <button class="btn-2 form__btn" type="submit">submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
-
-
-
-
-
-
 
 
   <footer class="footer">
