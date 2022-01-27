@@ -25,14 +25,16 @@ body {
   --text-color: #002529;
   --color-primary-1: #f67e7e;
   --color-primary-2: #79c8c7;
-  --color-title: #012F34;
+  --color-title: #012f34;
   --bg-color-1: #014e56;
   --bg-color-2: #012F34;
   --bg-color-3: #f67e7e;
   --bg-color-4: #002529;
+  --bg-color-5:#004047;
   --bd-color: #fff;
   --bg-color: #fff;
   --bd-radius: 24px;
+  --grit-title:#79C8C7;
 }
 
 .btn-1 {
@@ -313,6 +315,70 @@ body {
   line-height: 28px;
   color: var(--color);
 }
+
+
+.aboutlist{
+  background-color:var(--bg-color-5) ;
+  padding: 140px 0;
+}
+.aboutlist__title{
+  text-align: center;
+  font-size: 48px;
+  line-height: 48px;
+  margin-bottom: 64px;
+  color: var(--color);
+}
+.aboutlist__grid{
+  display: grid;
+  width: 100%;
+  height: 590px;
+  /* grid-gap: 10px; */
+  grid-column-gap: 30px;
+  grid-row-gap: 76px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  list-style: none;
+}
+
+.aboutlist__item{
+  position: relative;
+  width: 350px;
+  height: 253px;
+  padding: 32px 0;
+  background-color: var(--color-title);
+}
+.aboutgrid__img{
+  margin-left: 50%;
+  transform: translate(-50%);
+  margin-bottom: 16px;
+}
+.aboutgrid__title{
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: var(--grit-title);
+}
+.aboutgrid__text{
+  text-align: center;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--color);
+}
+.aboutgrid__pic{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: -11%;
+}
+
+
+
+
+
+
+
+
+
 
 
 
