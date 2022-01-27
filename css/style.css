@@ -95,6 +95,38 @@ body {
   transition: all 0.3s ease;
 }
 
+.btn-3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: var(--color-title);
+  padding: 9px 33px 11px 33px;
+
+  border: 2px solid var(--color-title);
+  border-radius: var(--bd-radius);
+  background: transparent;
+
+  transition: all 0.3s ease;
+
+  text-decoration: none;
+}
+
+.btn-3:hover {
+  color: var(--color);
+  background: var(--color-title);
+  transition: all 0.3s ease;
+}
+
+.btn-3:active {
+  color: var(--color-title);
+  border: 2px solid var(--color-title);
+  background: transparent;
+
+  opacity: 0.25;
+  transition: all 0.3s ease;
+}
+
 #header-hero {
   background: var(--bg-color-1);
   width: 100%;
@@ -302,17 +334,17 @@ body {
   color: var(--color-primary-2);
 }
 
-.stories__lists {}
-
 .stories__list {
   list-style-type: none;
 }
 
 .stories__item {
   width: 350px;
+  padding-top: 35px;
 }
 
 .stories__text {
+  position: relative;
   font-weight: 600;
   font-size: 15px;
   line-height: 25px;
@@ -321,11 +353,23 @@ body {
 
   color: var(--color);
   margin-bottom: 24px;
+  z-index: 10;
 }
 
-.stories__user {}
-
-.sto-user {}
+.stories__text::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 67px;
+  height: 55px;
+  background-image: url('../images/stories-text-icon.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
 
 .sto-user__title {
   font-weight: bold;
@@ -357,6 +401,34 @@ body {
 .sto-user__link {
   text-decoration: none;
 }
+
+
+/* READY PART  */
+
+
+.ready {
+  background: var(--color-primary-1);
+  background-image: url('../images/ready-bg-img.svg');
+  background-repeat: no-repeat;
+  background-size: 200px 145px;
+  background-position: left bottom;
+}
+
+.ready__inner {
+  width: 915px;
+  margin: 0 auto;
+  padding-top: 85px;
+  padding-bottom: 75px;
+}
+
+.ready__title {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+
+  color: var(--color-title);
+}
+
 
 
 /* CONTACT PART  */
