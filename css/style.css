@@ -30,11 +30,11 @@ body {
   --bg-color-2: #012F34;
   --bg-color-3: #f67e7e;
   --bg-color-4: #002529;
-  --bg-color-5:#004047;
+  --bg-color-5: #004047;
   --bd-color: #fff;
   --bg-color: #fff;
   --bd-radius: 24px;
-  --grit-title:#79C8C7;
+  --grit-title: #79C8C7;
 }
 
 .btn-1 {
@@ -567,30 +567,34 @@ body {
 
 /* ABOUT HTML  HERO*/
 
-.about-hero{
+.about-hero {
   background-image: url('../images/about-hero-bgc.png');
   background-repeat: no-repeat;
   background-position: bottom right;
 }
-.abouthero{
+
+.abouthero {
   padding: 121px 0;
   display: flex;
 }
-.abouthero__title{
+
+.abouthero__title {
   width: 350px;
-  margin: 0 30px 0 0 ;
+  margin: 0 30px 0 0;
   font-size: 64px;
   line-height: 100px;
   color: var(--color);
 }
-.abouthero__span{
+
+.abouthero__span {
   display: inline-block;
   width: 50px;
   height: 4px;
   background-color: var(--color-primary-1);
   margin-bottom: 40px;
 }
-.abouthero__text{
+
+.abouthero__text {
   width: 670px;
   font-size: 18px;
   line-height: 28px;
@@ -598,18 +602,20 @@ body {
 }
 
 
-.aboutlist{
-  background-color:var(--bg-color-5) ;
+.aboutlist {
+  background-color: var(--bg-color-5);
   padding: 140px 0;
 }
-.aboutlist__title{
+
+.aboutlist__title {
   text-align: center;
   font-size: 48px;
   line-height: 48px;
   margin-bottom: 64px;
   color: var(--color);
 }
-.aboutlist__grid{
+
+.aboutlist__grid {
   display: grid;
   width: 100%;
   height: 590px;
@@ -621,31 +627,35 @@ body {
   list-style: none;
 }
 
-.aboutlist__item{
+.aboutlist__item {
   position: relative;
   width: 350px;
   height: 253px;
   padding: 32px 0;
   background-color: var(--color-title);
 }
-.aboutgrid__img{
+
+.aboutgrid__img {
   margin-left: 50%;
   transform: translate(-50%);
   margin-bottom: 16px;
 }
-.aboutgrid__title{
+
+.aboutgrid__title {
   font-size: 18px;
   line-height: 28px;
   text-align: center;
   color: var(--grit-title);
 }
-.aboutgrid__text{
+
+.aboutgrid__text {
   text-align: center;
   font-size: 15px;
   line-height: 25px;
   color: var(--color);
 }
-.aboutgrid__pic{
+
+.aboutgrid__pic {
   position: absolute;
   left: 50%;
   transform: translate(-50%);
@@ -653,7 +663,22 @@ body {
 }
 
 
+.some {
+  background-image: url('/jamoviy__maket-1/images/some-bg.svg');
+  height: 437px;
+  background-color: var(--color-title);
+  background-repeat: no-repeat;
+}
 
+.some__title {
+  padding-top: 140px;
+  margin-bottom: 65px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+}
 
 
 
