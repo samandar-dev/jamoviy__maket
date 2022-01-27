@@ -622,7 +622,6 @@ body {
   grid-template-rows: 1fr 1fr;
   list-style: none;
 }
-
 .aboutlist__item{
   position: relative;
   width: 350px;
