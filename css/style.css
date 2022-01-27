@@ -108,15 +108,15 @@ body {
   margin-right: 80px;
 }
 
-.header__list {
+.nav__list {
   list-style-type: none;
 }
 
-.header__item:not(:nth-child(2)) {
+.nav__item:not(:nth-child(2)) {
   margin-right: 40px;
 }
 
-.header__link {
+.nav__link {
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
@@ -126,7 +126,7 @@ body {
   transition: all 0.2s ease;
 }
 
-.header__link:hover {
+.link-hover:hover {
   color: var(--color-primary-1);
   transition: all 0.2s ease;
 }
