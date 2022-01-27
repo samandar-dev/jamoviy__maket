@@ -580,9 +580,6 @@ body {
 }
 
 
-
-
-
 /* ABOUT HTML  HERO*/
 
 .about-hero {
@@ -691,7 +688,7 @@ body {
 }
 
 .some {
-  background-image: url('/jamoviy__maket-1/images/some-bg.svg');
+  background-image: url('../images/some-bg.svg');
   height: 437px;
   background-color: var(--color-title);
   background-repeat: no-repeat;
@@ -706,17 +703,6 @@ body {
   text-align: center;
   color: #FFFFFF;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* FOOTER PART  */
