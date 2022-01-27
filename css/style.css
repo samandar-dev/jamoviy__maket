@@ -601,6 +601,9 @@ body {
 .aboutlist{
   background-color:var(--bg-color-5) ;
   padding: 140px 0;
+  background-image: url('../images/grid-bg-img.png'),url('../images/grid-bgc-img2.png');
+  background-repeat: no-repeat;
+  background-position: top left,bottom right;
 }
 .aboutlist__title{
   text-align: center;
@@ -613,7 +616,6 @@ body {
   display: grid;
   width: 100%;
   height: 590px;
-  /* grid-gap: 10px; */
   grid-column-gap: 30px;
   grid-row-gap: 76px;
   grid-template-columns: 1fr 1fr 1fr;
@@ -625,7 +627,7 @@ body {
   position: relative;
   width: 350px;
   height: 253px;
-  padding: 32px 0;
+  padding: 32px 48px;
   background-color: var(--color-title);
 }
 .aboutgrid__img{
@@ -651,7 +653,14 @@ body {
   transform: translate(-50%);
   bottom: -11%;
 }
-
+.aboutgrid__div{
+  width: 60px;
+  margin: 0 auto;
+  margin-top: 24px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
 
 
 
